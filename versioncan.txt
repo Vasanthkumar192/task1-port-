@@ -1,0 +1,54 @@
+# Nmap 7.95 scan initiated Mon Aug  4 18:55:33 2025 as: /usr/lib/nmap/nmap --privileged -sV -oN /home/rakesh/Downloads/veriscan.txt 192.168.0.123/24
+Nmap scan report for 192.168.0.1
+Host is up (0.0073s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     Dropbear sshd 2012.55 (protocol 2.0)
+53/tcp   open  domain  (generic dns response: FORMERR)
+80/tcp   open  http    TP-LINK WAP http config
+1900/tcp open  upnp    Portable SDK for UPnP devices 1.6.19 (Linux 2.6.36; UPnP 1.0)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.95%I=7%D=8/4%Time=6890B513%P=x86_64-pc-linux-gnu%r(DNSVe
+SF:rsionBindReqTCP,20,"\0\x1e\0\x06\x81\x81\0\x01\0\0\0\0\0\0\x07version\x
+SF:04bind\0\0\x10\0\x03");
+MAC Address: 9C:A2:F4:09:AF:9C (TP-Link Limited)
+Service Info: OS: Linux; Device: WAP; CPE: cpe:/o:linux:linux_kernel, cpe:/o:linux:linux_kernel:2.6.36
+
+Nmap scan report for 192.168.0.105
+Host is up (0.00026s latency).
+All 1000 scanned ports on 192.168.0.105 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: EC:8E:77:A2:A2:BA (Unknown)
+
+Nmap scan report for 192.168.0.110
+Host is up (0.050s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE VERSION
+5060/tcp filtered sip
+MAC Address: 76:08:04:05:7E:D3 (Unknown)
+
+Nmap scan report for 192.168.0.112
+Host is up (0.027s latency).
+All 1000 scanned ports on 192.168.0.112 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: E6:16:9E:A7:F3:C2 (Unknown)
+
+Nmap scan report for 192.168.0.119
+Host is up (0.026s latency).
+All 1000 scanned ports on 192.168.0.119 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: D8:80:83:C8:42:0D (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 192.168.0.122
+Host is up (0.011s latency).
+All 1000 scanned ports on 192.168.0.122 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: F2:5E:1D:35:55:AD (Unknown)
+
+Nmap scan report for 192.168.0.123
+Host is up (0.0000020s latency).
+All 1000 scanned ports on 192.168.0.123 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Aug  4 18:56:43 2025 -- 256 IP addresses (7 hosts up) scanned in 70.85 seconds

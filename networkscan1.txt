@@ -1,0 +1,42 @@
+# Nmap 7.95 scan initiated Mon Aug  4 18:43:50 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN /home/vasanth/Downloads/networkscan.txt 192.168.0.123/24
+Nmap scan report for 192.168.0.1
+Host is up (0.0043s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+1900/tcp open  upnp
+MAC Address: 9C:A2:F4:09:AF:9C (TP-Link Limited)
+
+Nmap scan report for 192.168.0.105
+Host is up (0.00021s latency).
+All 1000 scanned ports on 192.168.0.105 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: EC:8E:77:A2:A2:BA (Unknown)
+
+Nmap scan report for 192.168.0.110
+Host is up (0.087s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 76:08:04:05:7E:D3 (Unknown)
+
+Nmap scan report for 192.168.0.112
+Host is up (0.032s latency).
+All 1000 scanned ports on 192.168.0.112 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: E6:16:9E:A7:F3:C2 (Unknown)
+
+Nmap scan report for 192.168.0.119
+Host is up (0.013s latency).
+All 1000 scanned ports on 192.168.0.119 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: D8:80:83:C8:42:0D (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 192.168.0.123
+Host is up (0.0000020s latency).
+All 1000 scanned ports on 192.168.0.123 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Aug  4 18:44:35 2025 -- 256 IP addresses (6 hosts up) scanned in 45.22 seconds
